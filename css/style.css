@@ -48,7 +48,7 @@ main{
     text-decoration: none;
     background-color: white;
     font-family: "Open Sans", sans-serif;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 1px 1px 1px black;
 }
 .box2 a:hover{
     background-color: hsl(300, 69%, 71%);
