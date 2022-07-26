@@ -10,7 +10,7 @@ body{
     color: white;
 }
 main{
-    width: 900px;
+    max-width: 900px;
     margin: 5% auto;
 }
 .container{
@@ -48,6 +48,7 @@ main{
     text-decoration: none;
     background-color: white;
     font-family: "Open Sans", sans-serif;
+    box-shadow: 2px 2px 2px;
 }
 .box2 a:hover{
     background-color: hsl(300, 69%, 71%);
@@ -55,17 +56,28 @@ main{
 .socialLinks {
     text-align: right;
     margin: -40px 0 0 0;
-    font-weight: 400;
 }
 .socialLinks a{
     margin: 0 10px 0 0;
     text-decoration: none;
-    font-size: 20px;
     text-align: center;
     color: white;
+    font-weight: 400;
     border: 1px solid;
-    padding: 7px;
+    padding: 6.5px;
     border-radius: 50%;
+}
+.socialLinks a.fa-facebook-f{
+    width: 30px;
+    height: 30px;
+}
+.socialLinks a.fa-twitter{
+    width: 30px;
+    height: 30px;
+}
+.socialLinks a.fa-instagram{
+    width: 30px;
+    height: 30px;
 }
 .socialLinks a:hover{
     color: hsl(300, 69%, 71%);
@@ -93,8 +105,12 @@ footer{
     .box2{
         text-align: center;
     }
+    .box2 a{
+        padding: 10px 80px;
+    }
     .socialLinks{
         text-align: center;
+        margin: 0 auto;
     }
     footer{
         margin-top: 50px;
