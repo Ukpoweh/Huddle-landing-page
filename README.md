@@ -50,7 +50,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://ukpoweh.github.io/Huddle-landing-page/)
+- [GitHub Pages - Live link](https://ukpoweh.github.io/Huddle-landing-page/)
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 
